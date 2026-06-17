@@ -114,7 +114,7 @@ func main() {
 
 	if !(strings.ContainsAny(text5, "@")) {
 		fmt.Println("Email должен содержать @")
-	} else if !(strings.ContainsAny(text5, "@")) {
+	} else if !(strings.ContainsAny(text5, ".")) {
 		fmt.Println("Email должен содержать точку после @")
 	} else {
 		fmt.Println("Email Корректен")
